@@ -14,7 +14,6 @@ function ProjectList({ projects }) {
             about={obj.about} 
             technologies={obj.technologies}
            />
-          // <span key={obj}></span>
       )}
     )
  
@@ -22,7 +21,7 @@ function ProjectList({ projects }) {
     <div id="projects">
       <h2>My Projects</h2>
       <div id="project-list">
-        <span>{projArr}</span>
+        {projArr}
        
       </div>
     </div>
